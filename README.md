@@ -1,5 +1,3 @@
-# TALON
-The code for TALON
 # Adapting LLMs to Time Series Forecasting via Temporal Heterogeneity Modeling and Semantic Alignment
 
 ## :sparkles: Abstract
