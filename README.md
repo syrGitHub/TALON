@@ -44,7 +44,7 @@ pip install -r requirements.txt
 6. Generate the Prompt through the LLM.
 ```bash
 # preprocess prompt to generate text embedding
-python ./preprocess.py --gpu 0 --dataset ETTh1
+python ./preprocess.py --gpu 0 --llm_model GPT2 --dataset ETTh1
 ```
 7. Train and evaluate the model. We provide all the above tasks under the folder ./scripts. Now you can reproduce the experiment results by:
 
