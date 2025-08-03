@@ -12,7 +12,7 @@ Extensive experiments on seven real-world benchmarks demonstrate that TALON achi
 These results underscore the effectiveness of incorporating both pattern-aware and semantic-aware designs when adapting LLMs for time series forecasting.
 
 ## :sparkles: Datasets
-You can obtain all the benchmarks from Google Drive (https://drive.google.com/drive/folders/1LrnL3nNNOcrQX2vk2abKahdkw4NGBxbG). All the datasets are well pre-processed and can be used easily.
+You can obtain all the benchmarks from [Google Drive](https://drive.google.com/drive/folders/1LrnL3nNNOcrQX2vk2abKahdkw4NGBxbG). All the datasets are well pre-processed and can be used easily.
 
 ## :sparkles: How to Run the Code:
 
@@ -71,5 +71,6 @@ One-for-all benchmark: a single forecaster is trained on one dataset and subsequ
 
 We appreciate the following GitHub repos a lot for their valuable code and efforts.
 
-- Time-Series-Library (https://github.com/thuml/Time-Series-Library)
-- OpenLTM (https://github.com/thuml/OpenLTM)
+- [Time-Series-Library](https://github.com/thuml/Time-Series-Library)
+- [OpenLTM](https://github.com/thuml/OpenLTM)
+- [AutoTimes](https://github.com/thuml/AutoTimes)
