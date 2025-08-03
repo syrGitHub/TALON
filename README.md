@@ -64,7 +64,7 @@ bash ./scripts/method_generality/qwen.sh
 ## :trophy: Time Series Forecasting:
 One-for-all benchmark: a single forecaster is trained on one dataset and subsequently used for all prediction lengths.
 
-![model](fig/Time Series Forecasting.png)
+![Result](fig/Time_Series_Forecasting.png)
 
 
 ## :sparkling_heart: Acknowledgements
