@@ -11,9 +11,6 @@ To bridge the modality gap, we introduce a Semantic Alignment Module that aligns
 Extensive experiments on seven real-world benchmarks demonstrate that TALON achieves superior performance across all datasets, with average MSE improvements of up to 11\% over recent state-of-the-art methods.
 These results underscore the effectiveness of incorporating both pattern-aware and semantic-aware designs when adapting LLMs for time series forecasting.
 
-## :sparkles: Datasets
-You can obtain all the benchmarks from [Time-Series-Library](https://github.com/thuml/Time-Series-Library). All the datasets are well pre-processed and can be used easily.
-
 ## :sparkles: How to Run the Code:
 
 1. Install Python 3.10, PyTorch 2.5.1.
@@ -21,7 +18,7 @@ You can obtain all the benchmarks from [Time-Series-Library](https://github.com/
 ```bash
 pip install -r requirements.txt
 ```
-3. Put the datasets under the folder ./dataset/.
+3. Prepare Data. You can obtain the well pre-processed datasets from [Time-Series-Library](https://github.com/thuml/Time-Series-Library), Then place the downloaded data in the folder./dataset.
 4. Download the large language models from [Hugging Face](https://huggingface.co/). The default LLM is GPT-2, you can change the llm_ckp_dir in run.py to use other LLMs.
    - [GPT-2](https://huggingface.co/openai-community/gpt2)
    - [Qwen-0.5B](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
@@ -41,12 +38,12 @@ pip install -r requirements.txt
      - Llama-2-7b /
     - ...
     - run.py
-6. Generate the Prompt through the LLM.
+5. Generate the Prompt through the LLM.
 ```bash
 # preprocess prompt to generate text embedding
 python ./preprocess.py --gpu 0 --llm_model GPT2 --dataset ETTh1
 ```
-7. Train and evaluate the model. We provide all the above tasks under the folder ./scripts. Now you can reproduce the experiment results by:
+6. Train and evaluate the model. We provide all the above tasks under the folder ./scripts. Now you can reproduce the experiment results by:
 
 ```bash
 # the default large language model is GPT-2
